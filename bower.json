@@ -1,0 +1,27 @@
+{
+  "name": "ng-stickyfill",
+  "description": "An Angular directive for easy using stickyfill, a polyfill allowing to use position:sticky on browsers that doesn't support that",
+  "main": "dist/ng-stickyfill.js",
+  "authors": [
+    "Anton Nesterov"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "sticky",
+    "angular",
+    "stickyfill",
+    "polyfill"
+  ],
+  "moduleType": [],
+  "homepage": "https://github.com/komachi/ng-stickyfill",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Stickyfill": "~1.1.3"
+  }
+}
