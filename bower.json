@@ -1,7 +1,7 @@
 {
   "name": "ng-stickyfill",
   "description": "An Angular directive for easy using stickyfill, a polyfill allowing to use position:sticky on browsers that doesn't support that",
-  "main": "dist/ng-stickyfill.js",
+  "main": "dist/ng-stickyfill.min.js",
   "authors": [
     "Anton Nesterov"
   ],

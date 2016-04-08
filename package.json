@@ -1,8 +1,8 @@
 {
   "name": "ng-stickyfill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Angular directive for easy using stickyfill, a polyfill allowing to use position:sticky on browsers that doesn't support that",
-  "main": "dist/ng-stickyfill.js",
+  "main": "dist/ng-stickyfill.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "cp src/ng-stickyfill.js dist/ng-stickyfill.js && ./node_modules/uglifyjs/bin/uglifyjs -o dist/ng-stickyfill.min.js src/ng-stickyfill.js"
