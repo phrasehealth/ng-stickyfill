@@ -5,8 +5,7 @@ angular.module('stickyfill', [])
       link: function(scope, element) {
         element.css({
           position: '-webkit-sticky',
-          position: 'sticky',
-          top: 0
+          position: 'sticky'
         });
         Stickyfill.add(element[0]);
       }
